@@ -1,0 +1,31 @@
+{
+	"process": [
+		{
+			"rule": "convert_require",
+			"current": {
+				"name": "path",
+				"sources": {
+					"@Packages": "./Packages",
+					"@ServerPackages": "./ServerPackages",
+					"@Shared": "./src/Shared",
+					"@Assets": "./src/Assets",
+					"@Client": "./src/Client",
+					"@RepFirst": "./src/ReplicatedFirst",
+					"@Server": "./src/Server",
+					"@ServerStorage": "./src/ServerStorage"
+				}
+			},
+			"target": {
+				"name": "roblox",
+				"rojo_sourcemap": "./sourcemap.json",
+				"indexing_style": "property"
+			}
+		},
+		"compute_expression",
+		"remove_unused_if_branch",
+		"remove_unused_while",
+		"filter_after_early_return",
+		"remove_nil_declaration",
+		"remove_empty_do"
+	]
+}

@@ -1,0 +1,17 @@
+# Roblox Files
+/Deadzone Eternal.rbxlx
+.DS_Store
+roblox.yml
+roblox.toml
+globalTypes.d.lua
+
+# Lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+/*.lock
+
+# Other
+sourcemap.*
+src/Assets
+out/
+Packages/

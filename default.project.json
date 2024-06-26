@@ -1,0 +1,46 @@
+{
+  "name": "Deadzone Eternal",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "out/Shared"
+      },
+
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "Assets": {
+        "$path": "Assets"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "Client": {
+        "$path": "out/ReplicatedFirst"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "out/Server"
+      }
+    },
+
+    "ServerStorage": {
+      "Packages": {
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "out/Client"
+        }
+      }
+    }
+  }
+}

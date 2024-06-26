@@ -1,0 +1,30 @@
+{
+	"editor.formatOnSave": true,
+	"luau-lsp.completion.imports.enabled": true,
+	"luau-lsp.completion.imports.suggestServices": true,
+	"luau-lsp.completion.imports.suggestRequires": false,
+	"luau-lsp.completion.imports.requireStyle": "alwaysRelative",
+	"luau-lsp.require.mode": "relativeToFile",
+	"luau-lsp.sourcemap.autogenerate": true,
+	"luau-lsp.sourcemap.rojoProjectFile": "bundle.project.json",
+	"luau-lsp.require.directoryAliases": {
+		"@Packages": "./Packages",
+		"@ServerPackages": "./ServerPackages",
+		"@Shared": "./src/Shared",
+		"@Assets": "./src/Assets",
+		"@Client": "./src/Client",
+		"@RepFirst": "./src/ReplicatedFirst",
+		"@Server": "./src/Server",
+		"@ServerStorage": "./src/ServerStorage"
+	},
+	"luau-lsp.ignoreGlobs": [
+		"**/_Index/**",
+		"/Packages/**",
+		"/ServerPackages/**",
+		"/out/**",
+		"*.spec.luau"
+	],
+	// "luau-lsp.fflags.override": {
+	// 	"DebugLuauDeferredConstraintResolution": "true"
+	// }
+}

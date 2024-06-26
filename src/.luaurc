@@ -1,0 +1,17 @@
+{
+	"languageMode": "strict",
+	"lintErrors": true,
+	"lint": {
+		"*": true,
+		"LocalShadow": false
+	},
+	"aliases": {
+		"pkg": "./Packages",
+		"shared": "./src/Shared",
+		"assets": "./src/Assets",
+		"client": "./src/Client",
+		"repfirst": "./src/ReplicatedFirst",
+		"server": "./src/Server",
+		"sstor": "./src/ServerStorage"
+	}
+}
